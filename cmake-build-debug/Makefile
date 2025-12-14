@@ -129,6 +129,32 @@ day01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day01.dir/build.make CMakeFiles/day01.dir/build
 .PHONY : day01/fast
 
+#=============================================================================
+# Target rules for targets named day02
+
+# Build rule for target.
+day02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day02
+.PHONY : day02
+
+# fast build rule for target.
+day02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day02.dir/build.make CMakeFiles/day02.dir/build
+.PHONY : day02/fast
+
+#=============================================================================
+# Target rules for targets named day03
+
+# Build rule for target.
+day03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day03
+.PHONY : day03
+
+# fast build rule for target.
+day03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/build
+.PHONY : day03/fast
+
 day01.o: day01.c.o
 .PHONY : day01.o
 
@@ -153,6 +179,54 @@ day01.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day01.dir/build.make CMakeFiles/day01.dir/day01.c.s
 .PHONY : day01.c.s
 
+day02.o: day02.c.o
+.PHONY : day02.o
+
+# target to build an object file
+day02.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day02.dir/build.make CMakeFiles/day02.dir/day02.c.o
+.PHONY : day02.c.o
+
+day02.i: day02.c.i
+.PHONY : day02.i
+
+# target to preprocess a source file
+day02.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day02.dir/build.make CMakeFiles/day02.dir/day02.c.i
+.PHONY : day02.c.i
+
+day02.s: day02.c.s
+.PHONY : day02.s
+
+# target to generate assembly for a file
+day02.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day02.dir/build.make CMakeFiles/day02.dir/day02.c.s
+.PHONY : day02.c.s
+
+day03.o: day03.c.o
+.PHONY : day03.o
+
+# target to build an object file
+day03.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/day03.c.o
+.PHONY : day03.c.o
+
+day03.i: day03.c.i
+.PHONY : day03.i
+
+# target to preprocess a source file
+day03.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/day03.c.i
+.PHONY : day03.c.i
+
+day03.s: day03.c.s
+.PHONY : day03.s
+
+# target to generate assembly for a file
+day03.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/day03.c.s
+.PHONY : day03.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +236,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... day01"
+	@echo "... day02"
+	@echo "... day03"
 	@echo "... day01.o"
 	@echo "... day01.i"
 	@echo "... day01.s"
+	@echo "... day02.o"
+	@echo "... day02.i"
+	@echo "... day02.s"
+	@echo "... day03.o"
+	@echo "... day03.i"
+	@echo "... day03.s"
 .PHONY : help
 
 
