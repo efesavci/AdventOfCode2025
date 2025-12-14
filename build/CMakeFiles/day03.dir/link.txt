@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/day03.dir/day03.c.o -o day03 

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aoc2025",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "day01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day01-Debug-51a6fa5c27bd2bd7d5a5.json",
+					"name" : "day01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day02-Debug-ddde2dde8b272a37aac0.json",
+					"name" : "day02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "day03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-day03-Debug-3139e91703a571310b24.json",
+					"name" : "day03",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025",
+		"source" : "/mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
