@@ -155,6 +155,19 @@ day03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/build
 .PHONY : day03/fast
 
+#=============================================================================
+# Target rules for targets named day04
+
+# Build rule for target.
+day04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day04
+.PHONY : day04
+
+# fast build rule for target.
+day04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day04.dir/build.make CMakeFiles/day04.dir/build
+.PHONY : day04/fast
+
 day01.o: day01.c.o
 .PHONY : day01.o
 
@@ -227,6 +240,30 @@ day03.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day03.dir/build.make CMakeFiles/day03.dir/day03.c.s
 .PHONY : day03.c.s
 
+day04.o: day04.c.o
+.PHONY : day04.o
+
+# target to build an object file
+day04.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day04.dir/build.make CMakeFiles/day04.dir/day04.c.o
+.PHONY : day04.c.o
+
+day04.i: day04.c.i
+.PHONY : day04.i
+
+# target to preprocess a source file
+day04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day04.dir/build.make CMakeFiles/day04.dir/day04.c.i
+.PHONY : day04.c.i
+
+day04.s: day04.c.s
+.PHONY : day04.s
+
+# target to generate assembly for a file
+day04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day04.dir/build.make CMakeFiles/day04.dir/day04.c.s
+.PHONY : day04.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,6 +275,7 @@ help:
 	@echo "... day01"
 	@echo "... day02"
 	@echo "... day03"
+	@echo "... day04"
 	@echo "... day01.o"
 	@echo "... day01.i"
 	@echo "... day01.s"
@@ -247,6 +285,9 @@ help:
 	@echo "... day03.o"
 	@echo "... day03.i"
 	@echo "... day03.s"
+	@echo "... day04.o"
+	@echo "... day04.i"
+	@echo "... day04.s"
 .PHONY : help
 
 

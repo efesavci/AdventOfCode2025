@@ -1,5 +1,6 @@
 /mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/day01.dir
 /mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/day02.dir
 /mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/day03.dir
+/mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/day04.dir
 /mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/MSI-NB/CLionProjects/Advent of Code - 2025/cmake-build-debug/CMakeFiles/rebuild_cache.dir
